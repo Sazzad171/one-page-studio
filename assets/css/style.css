@@ -1346,7 +1346,7 @@ footer .footer-bg2 {
 /* big tablet :991px. */
 @media (max-width: 991px) {
   .benefits {
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 60px;
   }
   .how-work, #pricing {
@@ -1419,8 +1419,8 @@ footer .footer-bg2 {
   }
   .our-works .slider {
     top: 12px;
-    right: 40px;
-    left: 40px;
+    right: 50px;
+    left: 50px;
   }
   .pricing-col .tag {
     left: 38%;
@@ -1430,4 +1430,18 @@ footer .footer-bg2 {
   }
 }
 
-/* small mobile :420px.  */
+/* small mobile :490px.  */
+@media (max-width: 490px) {
+  .our-works .slider {
+    top: 8px;
+    right: 43px;
+    left: 43px;
+  }
+}
+
+@media (max-width: 400px) {
+  .our-works .slider {
+    right: 33px;
+    left: 32px;
+  }
+}
